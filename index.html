@@ -2,6 +2,13 @@
 <html lang="en" class="scroll-smooth">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W4TRR9X2');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lodha Sadahalli | 3, 3.5 & 4 BHK New Launch, Devanahalli Bengaluru</title>
@@ -425,6 +432,10 @@
 </head>
 
 <body class="bg-white text-black font-sans antialiased overflow-x-hidden">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W4TRR9X2"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <!-- MAIN NAVBAR -->
     <header class="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-200">
@@ -587,7 +598,7 @@
                                     class="text-sm text-gray-500"> Onwards</span>
                             </p>
                             <button
-                                onclick="openModal(‘Express Interest’, ‘Get the best pre-launch pricing for Lodha Sadahalli.’, ‘Submit Interest’)"
+                                onclick="openModal('Express Interest', 'Get the best pre-launch pricing for Lodha Sadahalli.', 'Submit Interest')"
                                 class="w-full bg-[#7B6B1A] hover:bg-[#6B5C12] text-white py-3 mt-4 font-bold text-sm tracking-wide transition-colors">
                                 Express Your Interest
                             </button>
@@ -2716,8 +2727,7 @@
             };
 
             submitToGoogleSheet(formData, form, () => {
-                triggerSuccessToast();
-                form.reset();
+                window.location.href = 'thankyou.html';
             });
         }
 
@@ -2754,9 +2764,7 @@
             };
 
             submitToGoogleSheet(formData, form, () => {
-                closeModal();
-                triggerSuccessToast();
-                form.reset();
+                window.location.href = 'thankyou.html';
             });
         }
 
@@ -2803,8 +2811,7 @@
             };
 
             submitToGoogleSheet(formData, form, () => {
-                triggerSuccessToast();
-                form.reset();
+                window.location.href = 'thankyou.html';
             });
         }
 
